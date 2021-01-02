@@ -15,14 +15,12 @@ struct ContentView: View {
             HStack {
                 Text("Joshua Tree National Park")
                     .font(.subheadline)
-                
-                Spacer()
-                
+                Spacer() //自動で均等にスペースを作る
                 Text("California")
                     .font(.subheadline)
             }
         }
-        .padding()
+        .padding() //周りに余白を作る
     }
 }
 
